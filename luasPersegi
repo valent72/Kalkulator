@@ -1,0 +1,24 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="method.js"></script>
+    <title>Kalkulator Luas Persegi Panjang</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Kalkulator Luas Persegi Panjang</h2>
+        <label for="panjang">Panjang:</label>
+        <input type="number" id="panjang" placeholder="masukkan panjang...">
+        <br><br>
+        <label for="lebar">Lebar:</label>
+        <input type="number" id="lebar" placeholder="masukkan lebar...">
+        <br><br>
+        <button onclick="hitungLuas()">Hitung Luas</button>
+        <br><br>
+        <p id="hasil"></p>
+    </div>
+</body>
+</html>
